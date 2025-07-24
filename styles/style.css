@@ -1,0 +1,16 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+}
+
+nav a {
+  color: #00ffff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
