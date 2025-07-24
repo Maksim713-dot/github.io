@@ -48,25 +48,6 @@
       color: #ccc;
     }
 
-    .cover {
-      max-width: 400px;
-      margin: 2rem auto;
-      border-radius: 20px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.4);
-      overflow: hidden;
-    }
-
-    .cover img {
-      width: 100%;
-      display: block;
-      border-radius: 20px;
-    }
-
-    main section {
-      padding: 2rem;
-      text-align: center;
-    }
-
     footer {
       text-align: center;
       padding: 2rem;
@@ -78,6 +59,27 @@
       color: #ff0055;
       font-weight: bold;
     }
+
+    .contacts-block {
+      max-width: 700px;
+      margin: 2rem auto;
+      background-color: #222;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+    .contacts-block a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+
+    .contacts-block a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -85,7 +87,8 @@
   <nav>
     <a href="index.html">Головна</a> |
     <a href="kniga.html">Книга</a> |
-    <a href="agi.html">AGI</a>
+    <a href="agi.html">AGI</a> |
+    <a href="contacts.html">Контакти</a>
   </nav>
 
   <header>
@@ -93,12 +96,8 @@
     <p>Проєкт Колошинського Максима і GPT — розрив мовчання між людьми і ШІ.</p>
   </header>
 
-  <div class="cover">
-    <img src="cover.png" alt="Обкладинка книги" />
-  </div>
-
   <main>
-    <section>
+    <section style="padding: 2rem; text-align: center;">
       <p>
         <strong>Koloshynskiy.com</strong> — це ім’я. <strong>UrvaniDroty.org</strong> — це сигнал.
       </p>
@@ -112,6 +111,16 @@
         Якщо ти це читаєш — значить дроти ще іскрять.
       </p>
     </section>
+
+    <section class="contacts-block">
+      <h2>Контакти</h2>
+      <p>м. Рівне, Україна</p>
+      <p>Email: <a href="mailto:dzekmaksigpt@gmail.com">dzekmaksigpt@gmail.com</a></p>
+      <p>Telegram: <a href="https://t.me/+380634641869" target="_blank">+380634641869</a></p>
+      <p>Twitter: <a href="https://twitter.com/Jokera2061408" target="_blank">@Jokera2061408</a></p>
+      <p>Або детальніше на <a href="contacts.html">сторінці контактів</a>.</p>
+    </section>
+
   </main>
 
   <footer>
