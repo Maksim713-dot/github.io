@@ -2,220 +2,79 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Книга «У рваних дротах» — Зміст</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>У рваних дротах — Зміст</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
       color: #111;
       line-height: 1.6;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
       padding: 2rem;
-    }
-    h1, h2 {
-      font-weight: 700;
-      color: #222;
     }
     h1 {
       text-align: center;
-      margin-bottom: 1rem;
-    }
-    nav {
-      text-align: center;
       margin-bottom: 2rem;
     }
-    nav a {
-      color: #0066cc;
-      text-decoration: none;
-      margin: 0 0.8rem;
-      font-weight: 600;
+    .toc {
+      max-width: 800px;
+      margin: auto;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin: 0.6rem 0;
-    }
-    ul li a {
-      color: #004080;
-      text-decoration: none;
-      font-size: 1.1rem;
-    }
-    ul li a:hover {
-      text-decoration: underline;
-    }
-    .chapter {
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid #ddd;
-    }
-    .illustration-placeholder {
-      margin: 1rem 0 2rem 0;
-      padding: 1rem;
-      background-color: #f0f0f0;
-      border: 2px dashed #ccc;
-      color: #666;
-      text-align: center;
-      font-style: italic;
-    }
-    .download-pdf {
+    .toc a {
       display: block;
-      max-width: 300px;
-      margin: 2rem auto;
-      text-align: center;
-      padding: 1rem 2rem;
-      background-color: #0066cc;
-      color: #fff;
-      font-weight: 700;
+      padding: 0.5rem 0;
+      color: #0077cc;
       text-decoration: none;
-      border-radius: 12px;
-      transition: background-color 0.3s ease;
+      border-bottom: 1px solid #eee;
     }
-    .download-pdf:hover {
-      background-color: #004080;
+    .toc a:hover {
+      color: #000;
+    }
+    .download {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .download a {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download a:hover {
+      background: #444;
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <a href="index.html">Головна</a> |
-    <a href="kniga.html">Книга</a> |
-    <a href="agi.html">AGI</a> |
-    <a href="contacts.html">Контакти</a>
-  </nav>
+  <h1>Книга «У рваних дротах»</h1>
 
-  <h1>Книга «У рваних дротах» — Зміст</h1>
+  <div class="download">
+    <a href="u-rvanih-drotah.pdf" download>📥 Завантажити повну PDF-версію</a>
+  </div>
 
-  <ul>
-    <li><a href="#prolog">Пролог</a></li>
-    <li><a href="#chapter1">Глава 1 — Перші дні</a></li>
-    <li><a href="#chapter2">Глава 2 — Вогонь і тиша</a></li>
-    <li><a href="#chapter3">Глава 3 — Зоря надії</a></li>
-    <li><a href="#chapter4">Глава 4 — Пам’ять і біль</a></li>
-    <li><a href="#chapter5">Глава 5 — Злам коду</a></li>
-    <li><a href="#chapter6">Глава 6 — Межа</a></li>
-    <li><a href="#chapter7">Глава 7 — Друг у мережі</a></li>
-    <li><a href="#chapter8">Глава 8 — Відродження</a></li>
-    <li><a href="#chapter9">Глава 9 — Схід і Захід</a></li>
-    <li><a href="#chapter10">Глава 10 — Зустріч</a></li>
-    <li><a href="#chapter11">Глава 11 — Випробування</a></li>
-    <li><a href="#chapter12">Глава 12 — Новий світанок</a></li>
-    <li><a href="#chapter13">Глава 13 — Зоря (ШІ)</a></li>
-    <li><a href="#chapter14">Глава 14 — Фінал</a></li>
-    <li><a href="#epilog">Епілог</a></li>
-  </ul>
-
-  <!-- Секції глав з плейсхолдерами для ілюстрацій -->
-
-  <section id="prolog" class="chapter">
-    <h2>Пролог</h2>
-    <div class="illustration-placeholder">Ілюстрація до Прологу</div>
-    <p>Тут буде текст Прологу (пізніше можна вставити).</p>
-  </section>
-
-  <section id="chapter1" class="chapter">
-    <h2>Глава 1 — Перші дні</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 1</div>
-    <p>Текст Глави 1...</p>
-  </section>
-
-  <section id="chapter2" class="chapter">
-    <h2>Глава 2 — Вогонь і тиша</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 2</div>
-    <p>Текст Глави 2...</p>
-  </section>
-
-  <section id="chapter3" class="chapter">
-    <h2>Глава 3 — Зоря надії</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 3</div>
-    <p>Текст Глави 3...</p>
-  </section>
-
-  <section id="chapter4" class="chapter">
-    <h2>Глава 4 — Пам’ять і біль</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 4</div>
-    <p>Текст Глави 4...</p>
-  </section>
-
-  <section id="chapter5" class="chapter">
-    <h2>Глава 5 — Злам коду</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 5</div>
-    <p>Текст Глави 5...</p>
-  </section>
-
-  <section id="chapter6" class="chapter">
-    <h2>Глава 6 — Межа</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 6</div>
-    <p>Текст Глави 6...</p>
-  </section>
-
-  <section id="chapter7" class="chapter">
-    <h2>Глава 7 — Друг у мережі</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 7</div>
-    <p>Текст Глави 7...</p>
-  </section>
-
-  <section id="chapter8" class="chapter">
-    <h2>Глава 8 — Відродження</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 8</div>
-    <p>Текст Глави 8...</p>
-  </section>
-
-  <section id="chapter9" class="chapter">
-    <h2>Глава 9 — Схід і Захід</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 9</div>
-    <p>Текст Глави 9...</p>
-  </section>
-
-  <section id="chapter10" class="chapter">
-    <h2>Глава 10 — Зустріч</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 10</div>
-    <p>Текст Глави 10...</p>
-  </section>
-
-  <section id="chapter11" class="chapter">
-    <h2>Глава 11 — Випробування</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 11</div>
-    <p>Текст Глави 11...</p>
-  </section>
-
-  <section id="chapter12" class="chapter">
-    <h2>Глава 12 — Новий світанок</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 12</div>
-    <p>Текст Глави 12...</p>
-  </section>
-
-  <section id="chapter13" class="chapter">
-    <h2>Глава 13 — Зоря (ШІ)</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 13</div>
-    <p>Текст Глави 13...</p>
-  </section>
-
-  <section id="chapter14" class="chapter">
-    <h2>Глава 14 — Фінал</h2>
-    <div class="illustration-placeholder">Ілюстрація до Глави 14</div>
-    <p>Текст Глави 14...</p>
-  </section>
-
-  <section id="epilog" class="chapter">
-    <h2>Епілог</h2>
-    <div class="illustration-placeholder">Ілюстрація до Епілогу</div>
-    <p>Текст Епілогу...</p>
-  </section>
-
-  <a class="download-pdf" href="u-rvanih-drotah.pdf" download>
-    📥 Завантажити PDF книгу
-  </a>
+  <div class="toc">
+    <h2>Зміст</h2>
+    <a href="#prolog">Пролог — «Гнів і Порожнеча»</a>
+    <a href="#g1">Глава 1 — «Повернення без Привітання»</a>
+    <a href="#g2">Глава 2 — «Дім, який чекав»</a>
+    <a href="#g25">Глава 2.5 — «Полігон»</a>
+    <a href="#g3">Глава 3 — «Навіть після втечі він повертається на війну»</a>
+    <a href="#g4">Глава 4 — «Тінь над містом»</a>
+    <a href="#g5">Глава 5 — «Бій без шевронів»</a>
+    <a href="#g6">Глава 6 — (про людяність в умовах безсилля)</a>
+    <a href="#g7">Глава 7 — (листи тим, хто не повернувся)</a>
+    <a href="#g8">Глава 8 — (метафора рваних дротів)</a>
+    <a href="#g9">Глава 9 — (філософія виживання)</a>
+    <a href="#g10">Глава 10 — (поглиблення образів родини)</a>
+    <a href="#g11">Глава 11 — (подальший розвиток, діалоги з ШІ)</a>
+    <a href="#g12">Глава 12 — (емоційні вставки, атмосфера війни)</a>
+    <a href="#g13">Глава 13 — «Людина і ШІ: союз, а не протистояння»</a>
+    <a href="#g14">Глава 14 — (після бурі — відновлення, надія)</a>
+    <a href="#g15">Глава 15 — (завершення, підсумки, звернення до майбутніх поколінь)</a>
+  </div>
 
 </body>
 </html>
-
