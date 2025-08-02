@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Повна версія — "У рваних дротах"</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    nav {
+      background: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #0cf;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .download {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .download a {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: #0cf;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .download a:hover {
+      background: #09b;
+    }
+    .pdf-viewer {
+      width: 100%;
+      height: calc(100vh - 160px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Головна</a> |
+    <a href="book.html">Розділи</a> |
+    <a href="fullbook.html">Повна книга</a> |
+    <a href="agi.html">AGI</a> |
+    <a href="contacts.html">Контакти</a>
+  </nav>
+
+  <h1>Повна версія книги — "У рваних дротах"</h1>
+
+  <div class="download">
+    <a href="UrvaniDroty.pdf" download>📥 Завантажити PDF</a>
+  </div>
+
+  <iframe
+    class="pdf-viewer"
+    src="UrvaniDroty.pdf#view=FitH"
+    title="Книга У рваних дротах"
+  ></iframe>
+
+</body>
+</html>
